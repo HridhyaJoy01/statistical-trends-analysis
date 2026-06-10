@@ -48,7 +48,7 @@ def world_bank_data_reading(filename):
 
 def main():
    
-    filename = r"C:\Users\hridh\Desktop\assignment 2\climate_data.csv"
+    filename = "climate_data.csv"
     data_year, data_country, df_transposed = world_bank_data_reading(filename)
     
     # Print the dataframe with years as columns
